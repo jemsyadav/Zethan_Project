@@ -109,7 +109,12 @@
   button:hover:first-child{
     background: #bbb;
   }
-
+  .nav-tabs{
+    border-bottom: none;
+}
+.nav-link{
+padding: 10px 24px 10px;
+}
 
   
 
