@@ -11,10 +11,10 @@ const ZethToken = () => {
     <div>
       <div className="container">
         <div className="row" >
-            <div className="col-lg-12" style={{paddingBottom:"2rem"}}>
+            <div className="col-lg-12 col-sm-12" style={{paddingBottom:"2rem"}}>
             <h2 style={{textTransform:"capitalize",fontSize:"50px",lineHeight:"1.1",fontFamily:"resobot-bold",fontWeight:"700",textAlign:"center",color:"white",paddingTop:"8rem"}} class="title">ZETH Token</h2>
             </div>
-            <div className="Media_Query col-lg-3">
+            <div className="Media_Query col-lg-3 col-sm-12">
                 <p style={{paddingTop:"1rem"}} class="desc">Zethanx NFT</p>
                 <span class="count-number" data-to="359" data-speed="2000" data-inviewport="yes">5000</span>
                 <br />
@@ -27,7 +27,7 @@ const ZethToken = () => {
                 <p style={{paddingTop:"1rem"}} class="desc">zNFT Token Value</p>
                 <span class="count-number" data-to="32" data-speed="2000" data-inviewport="yes">$790.2371</span>
             </div>
-            <div className=" col-lg-2">
+            <div className=" col-lg-2 col-sm-12">
             <div className="Token_Image_Content" style={{display:"flex",color:"white",gap:"1rem"}}>
                 <div className="img">
                     <img src={token1} alt="" style={{height:"auto",maxWidth:"100%",alignItems:"center"}}/>
@@ -75,7 +75,7 @@ const ZethToken = () => {
              
             </div>
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-7 col-sm-12">
             <div className="Circle">
             <a href=""> <img src={circle} alt="" width={"80%"}  style={{paddingBottom:"2rem"}}/></a>
             </div>

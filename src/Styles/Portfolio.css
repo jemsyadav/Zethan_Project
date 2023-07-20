@@ -1,0 +1,141 @@
+.Description_Portfolio{
+    border: 1px solid rgb(127 142 173);
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+
+
+ /* ................Flip_Card_Start........................ */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    
+  }
+  .mainflip{
+
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 336px;
+    height: 388px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 336px;
+    height: 388px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #2980b9;
+    color: black;
+  }
+  
+  
+  .flip-card-back {
+   
+    background-color: #525252;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* ................Flip_Card_End........................ */
+
+
+/* ...................Button Style Start ........................... */
+
+  .Button_Alien_Play{
+
+    height: 60px;
+    width: 200px;
+    margin: 0 40px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+ 
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background: #0d0d0d;
+    overflow: hidden;
+    transition: 0.6s;
+  }
+  button:first-child{
+    color: #206592;
+    border-color: #206592;
+  }
+  button:last-child{
+    color: #ce5c0c;
+    border-color: #ce5c0c;
+    border-radius: 2rem;
+  }
+  button:before, button:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    
+  }
+ 
+  button:hover:before,
+  button:hover:after{
+    opacity: 0.6;
+    transform: translateX(320px) skewX(-45deg);
+  }
+  button:hover{
+    color: #f2f2f2;
+  }
+  button:hover:first-child{
+    background: #bbb;
+  }
+
+
+  
+
+
+  /* ...................Button Style Over ............................ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

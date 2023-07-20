@@ -31,7 +31,8 @@ const Game = () => {
     <div className="container">
     <div className="Second_Div">
         <div className="row" style={{color:"white"}}>
-            <div className="col-lg-12">
+            <div className="col-lg-12 col-sm-12
+            ">
             <h1 style={{fontSize:"50px",fontWeight:"900"}} class="title">Next-Generation <br /> Gaming And NFT <br />Ecosystem</h1>
             <h4>Zethan is the ultimate hub for web3 gaming powered by Zksync.</h4>
             </div>

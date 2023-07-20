@@ -72,18 +72,7 @@ width: "100%";    */
   }
 
   @media only screen and (max-width: 600px) {
-    .Global_1{
     
-    }
-    .Global_2{
-      
-       }
-       .Global_3{
-      
-       }
-       .Global_4{
-       
-       }
        .Media_Query{
         text-align: center;
         padding-bottom: 2rem;
@@ -174,8 +163,8 @@ width: "100%";    */
   .table {
     background-color: black;
     overflow: auto;
-    display: block;
-     width: 900px;
+    display: inline-table;
+     /* width: 900px; */
     
 }
 

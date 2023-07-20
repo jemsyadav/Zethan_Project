@@ -23,11 +23,11 @@ const OurPartners = () => {
     <div>
       <div className="container">
         <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-12 col-sm-12">
                 <h2 style={{paddingBottom:"5rem" ,textAlign:"center",fontSize:"50px",fontWeight:"700px",color:'white',paddingTop:"4rem"}}>Our Partners</h2>
             </div>
             <div className="row" style={{paddingBottom:"3rem"}}>
-                <div className="col-lg-12">
+                <div className="col-lg-12 col-sm-12">
                 <div className="main_Partner" style={{display:"flex",textAlign:"center",flexWrap:"wrap",opacity:".3",transition: "all .3s ease"}}>
                     
                     <div className="partner_1">
@@ -55,7 +55,7 @@ const OurPartners = () => {
             </div>
 
             <div className="row" style={{paddingBottom:"3rem"}}>
-                <div className="col-lg-12">
+                <div className="col-lg-12 col-sm-12">
                 <div className="main_Partner" style={{display:"flex",textAlign:"center",flexWrap:"wrap",opacity:".3"}}>
                     
                     <div className="partner_1">
@@ -83,7 +83,7 @@ const OurPartners = () => {
             </div>
              
             <div className="row" style={{paddingBottom:"3rem"}}>
-                <div className="col-lg-12">
+                <div className="col-lg-12 col-sm-12">
                 <div className="main_Partner" style={{display:"flex",textAlign:"center" ,justifyContent:"center",flexWrap:"wrap",opacity:".3"}}>
                     
                  

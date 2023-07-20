@@ -8,7 +8,7 @@ const FeaturedGames = () => {
     <div>
       <div className="container">
         <div className="row" style={{color:"white" , textAlign:"center",paddingTop:"4rem",paddingBottom:"4rem"}}>
-        <div className="col-lg-12">
+        <div className="col-lg-12 col-sm-12">
             <h1 style={{fontSize:"900",fontWeight:"bold"}}>
             Featured Games
             </h1>

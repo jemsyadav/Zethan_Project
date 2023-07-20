@@ -48,12 +48,12 @@ const Navbar1=()=> {
           <a className="nav-link active text-white " aria-current="page" href="/">GAMES</a>
         </li>
         <li class="nav-item">
-          <a class=" nav-link white" href="/about">PORTFOLIO</a>
+          <a class=" nav-link white" href="/portfolio">PORTFOLIO</a>
         </li>
         
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="/services">MARKETPLPACE</a>
+          <a class="nav-link text-white" href="/bridge">Bridge</a>
         </li>
 
         <li class="nav-item">
@@ -68,7 +68,7 @@ const Navbar1=()=> {
           <a class="nav-link text-white" href="/ourteam">GOVERENCE</a>
         </li>
 
-        <button style={{backgroundColor:"#2627a1",color:"white"}} className="glow-on-hover" type="button"> BUILD WITH ZETHAN</button>
+        <button style={{backgroundColor:"#2627a1",color:"white",borderStyle:"none"}} className="glow-on-hover"  type="button"> BUILD WITH ZETHAN</button>
        
       </ul>
      

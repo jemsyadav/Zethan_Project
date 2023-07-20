@@ -4,6 +4,8 @@ import './App.css';
 
 // import Home from './Pages/Home';
 import Game from './Pages/Game';
+import Portfolio from './Pages/Portfolio';
+import Bridge from './Pages/Bridge';
 
 
 function App() {
@@ -15,6 +17,9 @@ function App() {
     <Routes>
     
     <Route path='/' element={<Game/>}/>
+    <Route path='/portfolio' element={<Portfolio/>}/>
+    <Route path='/bridge' element={<Bridge/>}/>
+    
     
      
 

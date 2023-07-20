@@ -5,8 +5,9 @@ const Tokenomics = () => {
     <div>
       <div className="container">
         <div className="row">
-        
-        <table class="table " style={{color:"white"}}>
+         <div className="col-lg-12 col-sm-12">
+          
+         <table class="table " style={{color:"white"}}>
   <thead>
     <tr  style={{border:"2px solid hsla(0,0%,100%,.078)",textAlign:"center",borderRadius:"2rem"}}>
       <th  scope="col" style={{backgroundColor:"transparent",color:"white"}}>Category <br />Play To Earn</th>
@@ -40,6 +41,8 @@ const Tokenomics = () => {
     </tr>
   </tbody>
 </table>
+         </div>  
+      
         </div>
       </div>
     </div>
