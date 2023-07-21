@@ -7,4 +7,73 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
+
+  }
+  
+  .Main_Collect1_Box{
+    position: relative;
+    text-align: center;
+  }
+  .Rent_parag{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .level_31{
+    position: absolute;
+    top: 7%;
+    left: 14%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .Rent_Button{
+    position: absolute;
+    top: 90%;
+    left: 11%;
+    transform: translate(-50%,-50%);
+  }
+  .Rent_Button:hover{
+   
+  }
+  
+  .Jet_Power_Accuracy{
+    background: rgb(151 134 134 / 15%);
+  }
+
+  .Line{
+    width: 20rem;
+  }
+
+  .wallet{
+    background: linear-gradient(74deg, rgb(18, 218, 231), rgb(27, 78, 245));
+ 
+  }
+  .hr2{
+   
+    color: white;
+  }
+  
+
+
+
+ {/* <div className="row">
+           <div className="col-lg-3">
+           <div className="Main_Collect">
+            <div className="image">
+                <img src={collect1} alt="" width={"100%"} style={{paddingTop:"2rem"}} />
+            </div>
+            <div className="Main_Paragraphse" style={{display:"flex"}}>
+                <div className="AlienRaidpatner" style={{color:"white"}}>
+                    <p>Alien Raid Starship</p>
+                    <p>Alien Raid Starship #5411</p>
+                </div>
+                <div className="Main_Paragraphse_logo">
+                    <img src={AlienRaidStarShip} alt="" />
+                    
+            
+                </div>
+            </div>
+            </div>
+           </div>
+        </div> */}

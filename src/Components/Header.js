@@ -57,7 +57,7 @@ const Navbar1=()=> {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="/benifits">ZETHANX</a>
+          <a class="nav-link text-white" href="/zethanx">ZETHANX</a>
         </li>
 
         <li class="nav-item">
