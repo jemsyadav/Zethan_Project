@@ -70,7 +70,7 @@ const Zethanx = () => {
                   <a href=""><button style={{padding:"7px",border:"none",borderRadius:"24px",width:"7rem",background:"rgb(151 134 134 / 15%)",paddingTop:"10px"}} ><h6 style={{color:"white"}}>Select</h6></button></a>
                 </div>
                 <div className="Vertical_Line">
-
+                
                 </div>
               </div>
             </div>

@@ -7,6 +7,7 @@ import Game from './Pages/Game';
 import Portfolio from './Pages/Portfolio';
 import Bridge from './Pages/Bridge';
 import Zethanx from './Pages/Zethanx';
+import LaunchPad from './Pages/LaunchPad';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Route path='/portfolio' element={<Portfolio/>}/>
     <Route path='/bridge' element={<Bridge/>}/>
     <Route path='/zethanx' element={<Zethanx/>}/>
+    <Route path='/launchpad' element={<LaunchPad/>}/>
     
     
      

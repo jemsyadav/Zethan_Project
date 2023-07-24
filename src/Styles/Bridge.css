@@ -57,23 +57,31 @@
 
 
 
- {/* <div className="row">
-           <div className="col-lg-3">
-           <div className="Main_Collect">
-            <div className="image">
-                <img src={collect1} alt="" width={"100%"} style={{paddingTop:"2rem"}} />
-            </div>
-            <div className="Main_Paragraphse" style={{display:"flex"}}>
-                <div className="AlienRaidpatner" style={{color:"white"}}>
-                    <p>Alien Raid Starship</p>
-                    <p>Alien Raid Starship #5411</p>
-                </div>
-                <div className="Main_Paragraphse_logo">
-                    <img src={AlienRaidStarShip} alt="" />
-                    
-            
-                </div>
-            </div>
-            </div>
-           </div>
-        </div> */}
+/* .....................LaunchPad.css............................. */
+
+.LaunchpadImage{
+  position: relative;
+  text-align: center !important;
+  border: 1px solid;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #262626;
+  
+}
+.Gamefi{
+  position: absolute;
+  top: 9%;
+  left:17%;
+  transform: translate(-50%,-50%);
+}
+.Closed{
+  position: absolute;
+  top: 9%;
+  left:83%;
+  transform: translate(-50%,-50%);
+}
+.LAunch_Pad:hover{
+  transform: scale(1.1);
+  
+}

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row" style={{paddingTop:"3rem"}}>
             <div className="col-lg-4 col-sm-12">
-            <img src={zethanlogo} alt="" width={"50px"}/>
+            <img style={{paddingBottom:"1rem"}} src={zethanlogo} alt="" width={"50px"}/>
             <h6 style={{color:"white"}}>Zethan is the ultimate hub for web3 gaming <br /> powered by Zksync</h6>
 
             </div>
