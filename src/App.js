@@ -8,6 +8,7 @@ import Portfolio from './Pages/Portfolio';
 import Bridge from './Pages/Bridge';
 import Zethanx from './Pages/Zethanx';
 import LaunchPad from './Pages/LaunchPad';
+import Governance from './Pages/Governance';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
     <Route path='/bridge' element={<Bridge/>}/>
     <Route path='/zethanx' element={<Zethanx/>}/>
     <Route path='/launchpad' element={<LaunchPad/>}/>
-    
+    <Route path='/governance' element={<Governance/>}/>
     
      
 

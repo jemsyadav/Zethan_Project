@@ -65,7 +65,7 @@ const Navbar1=()=> {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="/ourteam">GOVERENCE</a>
+          <a class="nav-link text-white" href="/governance">GOVERENCE</a>
         </li>
 
         <button style={{backgroundColor:"#2627a1",color:"white",borderStyle:"none"}} className="glow-on-hover"  type="button"> BUILD WITH ZETHAN</button>
