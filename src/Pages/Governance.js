@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar1 from "../Components/Header";
 import logo from "../Images/LogoZethan.png";
 import "../Styles/Governance.css";
+import Footer from "../Components/Footer";
 
 const Governance = () => {
   const [balance, setBalance] = useState(<h1>0.0</h1>);
@@ -346,6 +347,7 @@ const Governance = () => {
               </div>
             </div>
           </div>
+          <Footer/>
         </div>
       </div>
     </div>

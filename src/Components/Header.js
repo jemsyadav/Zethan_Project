@@ -29,11 +29,12 @@ const Navbar1 = () => {
             {icon ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
+                width="35"
                 height="25"
                 fill="currentColor"
                 class="bi bi-list"
                 viewBox="0 0 16 16"
+                color="white"
               >
                 <path
                   fill-rule="evenodd"
@@ -43,11 +44,12 @@ const Navbar1 = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
+                width="35"
+                height="35"
                 fill="currentColor"
                 class="bi bi-x"
                 viewBox="0 0 16 16"
+                color="white"
               >
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
               </svg>
@@ -81,7 +83,7 @@ const Navbar1 = () => {
 
           <li class="nav-item">
             <a class="nav-link text-white" href="/bridge">
-              Bridge
+              BRIDGE
             </a>
           </li>
 
@@ -103,6 +105,7 @@ const Navbar1 = () => {
             </a>
           </li>
 
+<li>
           <button
             style={{
               backgroundColor: "#2627a1",
@@ -113,8 +116,12 @@ const Navbar1 = () => {
             type="button"
           >
             {" "}
-            BUILD WITH ZETHAN
+          
+            <a class="nav-link text-white" href="/buildwithzethan">
+              Build With Zethan
+            </a>
           </button>
+          </li>
         </ul>
       </div>
     </nav>

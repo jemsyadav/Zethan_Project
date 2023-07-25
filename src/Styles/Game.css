@@ -68,6 +68,9 @@ width: "100%";    */
    .Global_Image{
     width: 100%;
    }
+   .table {
+    display: none;
+   }
  
   }
 
